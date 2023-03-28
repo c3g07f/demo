@@ -2,8 +2,8 @@ package src.java.mission2.q3;
 
 // 正式员工类
 class RegularEmployee extends Employee {
-    private int workYears;
-    private double bonus;
+    private final int workYears;
+    private final double bonus;
 
     public RegularEmployee(String name, int id, double basicSalary, int workYears, double bonus) {
         super(name, id, basicSalary);
